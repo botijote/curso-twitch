@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="primer cambio">
-      <changelist_data name="sobremesa" email="laroguf@hotmail.com" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/ObjetosSencillos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rgil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rgil/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Objetos sencillos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sobremesa &lt;laroguf@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -88,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687364265096</updated>
-      <workItem from="1687364267341" duration="10796000" />
+      <workItem from="1687364267341" duration="11131000" />
     </task>
     <task id="LOCAL-00001" summary="primer cambio">
       <created>1687532563050</created>
@@ -104,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687533068764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Objetos sencillos">
+      <created>1687631773019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687631773019</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Objetos sencillos">
+      <created>1687631809566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687631809566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +137,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer cambio" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer cambio" />
+    <MESSAGE value="Objetos sencillos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Objetos sencillos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
