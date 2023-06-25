@@ -1,6 +1,4 @@
-package org.rgil;
-
-import java.util.Random;
+package sesion01;
 
 public class Main {
     public static void main(String[] args) {

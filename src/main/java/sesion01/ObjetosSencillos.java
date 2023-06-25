@@ -1,4 +1,4 @@
-package org.rgil;
+package sesion01;
 
 public class ObjetosSencillos {
     public static void main(String[] args) {
