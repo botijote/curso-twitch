@@ -1,4 +1,4 @@
-package sesion01;
+package org.rgil;
 
 public class Main {
     public static void main(String[] args) {
