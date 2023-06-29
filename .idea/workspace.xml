@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Objetos sencillos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion02/SentenciasCondicionales.java" afterDir="false" />
+    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Clases, metodos y TDD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion05/HerenciaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion05/Hija.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion05/Madre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rgil/sesion05/testMadre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sesion01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rgil/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sesion01/ObjetosSencillos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion01/ObjetosSencillos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,19 @@
         <option value="sobremesa &lt;laroguf@hotmail.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias01Condicionales.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias03Arrays.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias04String.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias2Bucles.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,31 +53,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/NetBeansProjects/curso-twitch/src/main/java/org/rgil/sesion&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/NetBeansProjects/curso-twitch/src/main/java/org/rgil/sesion04/ejemplo06",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\NetBeansProjects\curso-twitch\src\main\java\org\rgil\sesion04\ejemplo06" />
+      <recent name="G:\NetBeansProjects\curso-twitch\src\main\java\org\rgil\sesion04\ejemplo05" />
+      <recent name="G:\NetBeansProjects\curso-twitch\src\main\java\org\rgil\sesion04\ejemplo04" />
+      <recent name="G:\NetBeansProjects\curso-twitch\src\main\java\org\rgil\sesion04\ejemplo03" />
       <recent name="G:\NetBeansProjects\curso-twitch\src\main\java\org\rgil\sesion" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.rgil.sesion04.ejemplo06" />
+      <recent name="org.rgil.sesion04.ejemplo05" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SentenciasCondicionales">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion.Main" />
+  <component name="RunManager" selected="JUnit.testMadre">
+    <configuration name="HerenciaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion05.HerenciaApp" />
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion.*" />
+          <option name="PATTERN" value="org.rgil.sesion05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjetosSencillos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion01.ObjetosSencillos" />
+    <configuration name="PersonaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo06.PersonaApp" />
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion.*" />
+          <option name="PATTERN" value="org.rgil.sesion04.ejemplo06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,24 +106,110 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SentenciasCondicionales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion02.SentenciasCondicionales" />
+    <configuration name="Funciones01EstaticasTest.testSuma" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion02.*" />
+          <option name="PATTERN" value="org.rgil.sesion03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.rgil.sesion03" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion03.Funciones01EstaticasTest" />
+      <option name="METHOD_NAME" value="testSuma" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonaTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion04.ejemplo06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.rgil.sesion04.ejemplo06" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo06.PersonaTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonaTest.testGetterYSetterEdad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion04.ejemplo06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.rgil.sesion04.ejemplo06" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo06.PersonaTest" />
+      <option name="METHOD_NAME" value="testGetterYSetterEdad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMadre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.rgil.sesion05" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion05.testMadre" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ejemplosdelcurso-twitch [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.HerenciaApp" />
+      <item itemvalue="Application.PersonaApp" />
+      <item itemvalue="JUnit.Funciones01EstaticasTest.testSuma" />
+      <item itemvalue="JUnit.PersonaTest.testEquals" />
+      <item itemvalue="JUnit.PersonaTest.testGetterYSetterEdad" />
+      <item itemvalue="JUnit.testMadre" />
+      <item itemvalue="Maven.ejemplosdelcurso-twitch [test]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SentenciasCondicionales" />
-        <item itemvalue="Application.ObjetosSencillos" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.testMadre" />
+        <item itemvalue="Application.HerenciaApp" />
+        <item itemvalue="JUnit.PersonaTest.testEquals" />
+        <item itemvalue="JUnit.PersonaTest.testGetterYSetterEdad" />
+        <item itemvalue="Application.PersonaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +222,13 @@
       <option name="presentableId" value="Default" />
       <updated>1687364265096</updated>
       <workItem from="1687364267341" duration="15044000" />
-      <workItem from="1687798265752" duration="682000" />
+      <workItem from="1687798265752" duration="2229000" />
+      <workItem from="1688058946416" duration="1958000" />
+      <workItem from="1688069398049" duration="606000" />
+      <workItem from="1688492323470" duration="112000" />
+      <workItem from="1688492634724" duration="631000" />
+      <workItem from="1688569295862" duration="599000" />
+      <workItem from="1688999908666" duration="42894000" />
     </task>
     <task id="LOCAL-00001" summary="primer cambio">
       <created>1687532563050</created>
@@ -173,7 +286,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687713222240</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Objetos sencillos">
+      <created>1687880129483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687880129483</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Objetos sencillos">
+      <created>1688058290508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688058290508</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Clases, metodos y TDD">
+      <created>1689620090673</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689620090673</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +338,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer cambio" />
     <MESSAGE value="Objetos sencillos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Objetos sencillos" />
+    <MESSAGE value="Clases, metodos y TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clases, metodos y TDD" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias01Condicionales.java</url>
+          <line>5</line>
+          <properties class="org.rgil.sesion02.Sentencias01Condicionales">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo04/PersonaApp.java</url>
+          <line>3</line>
+          <properties class="org.rgil.sesion04.ejemplo04.PersonaApp" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/rgil/sesion03/Funciones01EstaticasTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
