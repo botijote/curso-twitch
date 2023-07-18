@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Objetos sencillos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias01Condicionales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias03Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias04String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias2Bucles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion03/Funciones01Estaticas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion03/Funciones01EstaticasApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo01/MiClase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo01/MiClaseApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo02/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo02/PersonaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo03/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo03/PersonaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo04/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo04/PersonaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo05/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo05/PersonaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo06/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion04/ejemplo06/PersonaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rgil/sesion03/Funciones01EstaticasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rgil/sesion04/ejemplo04/PersonaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rgil/sesion04/ejemplo05/PersonaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rgil/sesion04/ejemplo06/PersonaTest.java" afterDir="false" />
+    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Herencia y TDD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Currito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Jefe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/ProgramaEmpleados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rgil/sesion02/SentenciasCondicionales.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +33,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="features-sesion-06" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +44,10 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias03Arrays.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias04String.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion02/Sentencias2Bucles.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion06/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion06/Empleado.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/sesion06/Persona.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/rgil/sesion06/testPersona.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +68,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,26 +84,13 @@
       <recent name="org.rgil.sesion04.ejemplo05" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonaTest.testEquals">
-    <configuration name="PersonaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo06.PersonaApp" />
+  <component name="RunManager" selected="Application.ProgramaEmpleados">
+    <configuration name="ProgramaEmpleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion07.ProgramaEmpleados" />
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion04.ejemplo06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.rgil.sesion04.ejemplo05.PersonaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo05.PersonaApp" />
-      <module name="curso-twitch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.rgil.sesion04.ejemplo05.*" />
+          <option name="PATTERN" value="org.rgil.sesion07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,48 +114,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonaTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testPersona.testConstrutorConPArametros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion04.ejemplo06.*" />
+          <option name="PATTERN" value="org.rgil.sesion06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.rgil.sesion04.ejemplo06" />
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo06.PersonaTest" />
-      <option name="METHOD_NAME" value="testEquals" />
+      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
+      <option name="METHOD_NAME" value="testConstrutorConPArametros" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonaTest.testGetterYSetterEdad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testPersona.testConstrutorSinPArametros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion04.ejemplo06.*" />
+          <option name="PATTERN" value="org.rgil.sesion06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.rgil.sesion04.ejemplo06" />
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo06.PersonaTest" />
-      <option name="METHOD_NAME" value="testGetterYSetterEdad" />
+      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
+      <option name="METHOD_NAME" value="testConstrutorSinPArametros" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonaTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testPersona.testGetterSeeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion04.ejemplo05.*" />
+          <option name="PATTERN" value="org.rgil.sesion06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.rgil.sesion04.ejemplo05" />
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion04.ejemplo05.PersonaTest" />
+      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
+      <option name="METHOD_NAME" value="testGetterSeeter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPersona.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
       <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -216,21 +204,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PersonaApp" />
-      <item itemvalue="Application.org.rgil.sesion04.ejemplo05.PersonaApp" />
+      <item itemvalue="Application.ProgramaEmpleados" />
       <item itemvalue="JUnit.Funciones01EstaticasTest.testSuma" />
-      <item itemvalue="JUnit.PersonaTest.testEquals" />
-      <item itemvalue="JUnit.PersonaTest.testGetterYSetterEdad" />
-      <item itemvalue="JUnit.PersonaTest.testToString" />
+      <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
+      <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
+      <item itemvalue="JUnit.testPersona.testGetterSeeter" />
+      <item itemvalue="JUnit.testPersona.testToString" />
       <item itemvalue="Maven.ejemplosdelcurso-twitch [test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonaTest.testEquals" />
-        <item itemvalue="JUnit.PersonaTest.testGetterYSetterEdad" />
-        <item itemvalue="Application.PersonaApp" />
-        <item itemvalue="JUnit.PersonaTest.testToString" />
-        <item itemvalue="Application.org.rgil.sesion04.ejemplo05.PersonaApp" />
+        <item itemvalue="Application.ProgramaEmpleados" />
+        <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
+        <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
+        <item itemvalue="JUnit.testPersona.testGetterSeeter" />
+        <item itemvalue="JUnit.testPersona.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688058290508</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Herencia y TDD">
+      <created>1689692130585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689692130586</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +347,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer cambio" />
     <MESSAGE value="Objetos sencillos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Objetos sencillos" />
+    <MESSAGE value="Herencia y TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Herencia y TDD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
