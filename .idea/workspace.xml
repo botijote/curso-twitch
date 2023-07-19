@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Herencia y TDD">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo01/Abstracta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo01/HerenciaAbstracta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo01/MainAbstracta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Currito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Jefe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/ProgramaEmpleados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,20 +84,7 @@
       <recent name="org.rgil.sesion04.ejemplo05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainAbstracta">
-    <configuration name="MainAbstracta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion08.ejemplo01.MainAbstracta" />
-      <module name="curso-twitch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.rgil.sesion08.ejemplo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProgramaEmpleados">
     <configuration name="ProgramaEmpleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rgil.sesion07.ProgramaEmpleados" />
       <module name="curso-twitch" />
@@ -173,6 +162,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testPersona.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ejemplosdelcurso-twitch [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -199,21 +204,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MainAbstracta" />
       <item itemvalue="Application.ProgramaEmpleados" />
       <item itemvalue="JUnit.Funciones01EstaticasTest.testSuma" />
       <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
       <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
       <item itemvalue="JUnit.testPersona.testGetterSeeter" />
+      <item itemvalue="JUnit.testPersona.testToString" />
       <item itemvalue="Maven.ejemplosdelcurso-twitch [test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainAbstracta" />
         <item itemvalue="Application.ProgramaEmpleados" />
         <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
         <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
         <item itemvalue="JUnit.testPersona.testGetterSeeter" />
+        <item itemvalue="JUnit.testPersona.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -311,14 +316,7 @@
       <option name="project" value="LOCAL" />
       <updated>1689692130586</updated>
     </task>
-    <task id="LOCAL-00012" summary="Herencia y TDD">
-      <created>1689757010687</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1689757010687</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
