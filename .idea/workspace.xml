@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment=" Lombock y TDD">
+    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Colecciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/rgil/sesion10/App01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion10/App01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,20 @@
       <recent name="org.rgil.sesion04.ejemplo05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataApp">
+  <component name="RunManager" selected="Application.App01">
+    <configuration name="App01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion10.App01" />
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsultableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rgil.sesion08.ejemplo02.ConsultableApp" />
       <module name="curso-twitch" />
@@ -147,22 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPersona.testConstrutorConPArametros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="curso-twitch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.rgil.sesion06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
-      <option name="METHOD_NAME" value="testConstrutorConPArametros" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="testPersona.testConstrutorSinPArametros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="curso-twitch" />
       <extension name="coverage">
@@ -205,21 +203,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.App01" />
       <item itemvalue="Application.ConsultableApp" />
       <item itemvalue="Application.DataApp" />
       <item itemvalue="Application.ProgramaEmpleados" />
       <item itemvalue="JUnit.Funciones01EstaticasTest.testSuma" />
-      <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
       <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
       <item itemvalue="Maven.ejemplosdelcurso-twitch [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App01" />
         <item itemvalue="Application.DataApp" />
         <item itemvalue="Application.ConsultableApp" />
         <item itemvalue="Application.ProgramaEmpleados" />
         <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
-        <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689793823989</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Colecciones">
+      <created>1689796629838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689796629838</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +371,8 @@
     <MESSAGE value="Herencia y TDD" />
     <MESSAGE value="Lombocky TDD" />
     <MESSAGE value=" Lombock y TDD" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Lombock y TDD" />
+    <MESSAGE value="Colecciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Colecciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
