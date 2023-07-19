@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Herencia y TDD">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Currito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Jefe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion07/ProgramaEmpleados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo02/Consultable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo02/ConsultableApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo02/ConsultableMemoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo02/ConsutableBBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion08/ejemplo02/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +38,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/rgil/Main.java" root0="FORCE_HIGHLIGHTING" />
@@ -58,19 +66,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/NetBeansProjects/curso-twitch/src/main/java/org/rgil/sesion04/ejemplo06",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/NetBeansProjects/curso-twitch/src/main/java/org/rgil/sesion04/ejemplo06&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\NetBeansProjects\curso-twitch\src\main\java\org\rgil\sesion04\ejemplo06" />
@@ -84,7 +92,20 @@
       <recent name="org.rgil.sesion04.ejemplo05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgramaEmpleados">
+  <component name="RunManager" selected="Application.ConsultableApp">
+    <configuration name="ConsultableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion08.ejemplo02.ConsultableApp" />
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion08.ejemplo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProgramaEmpleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rgil.sesion07.ProgramaEmpleados" />
       <module name="curso-twitch" />
@@ -162,22 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPersona.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="curso-twitch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.rgil.sesion06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ejemplosdelcurso-twitch [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -204,21 +209,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ConsultableApp" />
       <item itemvalue="Application.ProgramaEmpleados" />
       <item itemvalue="JUnit.Funciones01EstaticasTest.testSuma" />
       <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
       <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
       <item itemvalue="JUnit.testPersona.testGetterSeeter" />
-      <item itemvalue="JUnit.testPersona.testToString" />
       <item itemvalue="Maven.ejemplosdelcurso-twitch [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsultableApp" />
         <item itemvalue="Application.ProgramaEmpleados" />
         <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
         <item itemvalue="JUnit.testPersona.testConstrutorConPArametros" />
         <item itemvalue="JUnit.testPersona.testGetterSeeter" />
-        <item itemvalue="JUnit.testPersona.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -347,6 +352,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer cambio" />
     <MESSAGE value="Objetos sencillos" />
+    <MESSAGE value="Calses Abstractaas e interfaces" />
     <MESSAGE value="Herencia y TDD" />
     <option name="LAST_COMMIT_MESSAGE" value="Herencia y TDD" />
   </component>
