@@ -77,6 +77,7 @@ public class App01 {
         System.out.println("Ejemplos de mapa");
         // hay que definir el tipo del indice que va a manejar y el tipo de datos que vamos a almacenar
         Map<Integer, String> mapa = new HashMap<>();
+        //El indice se ordena de mayor a menor y en orden alfabetico
         mapa.put(1, "Marcos");
         mapa.put(0,"Ines");
         System.out.println(mapa);
@@ -86,8 +87,15 @@ public class App01 {
         mapaCliente.put("direccion", "Arroyo");
         mapaCliente.put("tlf", "+34 674");
         System.out.println(mapaCliente);
+        //Acceso al valor mediante la clave
+        System.out.println(mapaCliente.get("tlf"));
+        //borrar elementos
+        //hay dos formas, todos los que pertenecen a un indice o
+        //indicando el elemento que queremos mediante indice y valor
+        mapaCliente.remove("tlf");
+        System.out.println(mapaCliente);
 
-        mapaCliente
+
 
     }
 }

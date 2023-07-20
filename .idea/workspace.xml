@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Colecciones">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion11/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion11/EjercicioColecciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion11/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/rgil/sesion10/App01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion10/App01.java" afterDir="false" />
     </list>
@@ -92,7 +95,7 @@
       <recent name="org.rgil.sesion04.ejemplo05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App01">
+  <component name="RunManager" selected="Application.EjercicioColecciones">
     <configuration name="App01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rgil.sesion10.App01" />
       <module name="curso-twitch" />
@@ -132,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjercicioColecciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion11.EjercicioColecciones" />
+      <module name="curso-twitch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rgil.sesion11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProgramaEmpleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rgil.sesion07.ProgramaEmpleados" />
       <module name="curso-twitch" />
@@ -156,22 +172,6 @@
       <option name="PACKAGE_NAME" value="org.rgil.sesion03" />
       <option name="MAIN_CLASS_NAME" value="org.rgil.sesion03.Funciones01EstaticasTest" />
       <option name="METHOD_NAME" value="testSuma" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testPersona.testConstrutorSinPArametros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="curso-twitch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.rgil.sesion06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.rgil.sesion06" />
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion06.testPersona" />
-      <option name="METHOD_NAME" value="testConstrutorSinPArametros" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,21 +203,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.EjercicioColecciones" />
       <item itemvalue="Application.App01" />
       <item itemvalue="Application.ConsultableApp" />
       <item itemvalue="Application.DataApp" />
       <item itemvalue="Application.ProgramaEmpleados" />
       <item itemvalue="JUnit.Funciones01EstaticasTest.testSuma" />
-      <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
       <item itemvalue="Maven.ejemplosdelcurso-twitch [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjercicioColecciones" />
         <item itemvalue="Application.App01" />
         <item itemvalue="Application.DataApp" />
         <item itemvalue="Application.ConsultableApp" />
         <item itemvalue="Application.ProgramaEmpleados" />
-        <item itemvalue="JUnit.testPersona.testConstrutorSinPArametros" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689796629838</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Colecciones">
+      <created>1689850702842</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689850702842</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
