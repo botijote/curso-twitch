@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Colecciones">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion11/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion11/EjercicioColecciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion11/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rgil/sesion10/App01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion10/App01.java" afterDir="false" />
-    </list>
+    <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Colecciones" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -378,6 +372,7 @@
     <MESSAGE value="Herencia y TDD" />
     <MESSAGE value="Lombocky TDD" />
     <MESSAGE value=" Lombock y TDD" />
+    <MESSAGE value="Clases Genericas" />
     <MESSAGE value="Colecciones" />
     <option name="LAST_COMMIT_MESSAGE" value="Colecciones" />
   </component>
