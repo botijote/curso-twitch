@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3100b99f-f35c-4221-9826-12a049a89418" name="Changes" comment="Colecciones">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion13/hilos/MiHilo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion13/hilos/MiHiloApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion13/hilos/complejo/HilosConsumidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion13/hilos/complejo/HilosContenedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion13/hilos/complejo/HilosProductor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion13/hilos/complejo/HilosProductorConsumidorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rgil/sesion14/FicherosApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +92,7 @@
       <recent name="org.rgil.sesion04.ejemplo05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiHiloApp">
+  <component name="RunManager" selected="Application.FicherosApp">
     <configuration name="App01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rgil.sesion10.App01" />
       <module name="curso-twitch" />
@@ -124,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion09.DataApp" />
+    <configuration name="EjercicioColecciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion11.EjercicioColecciones" />
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion09.*" />
+          <option name="PATTERN" value="org.rgil.sesion11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioColecciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion11.EjercicioColecciones" />
+    <configuration name="FicherosApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rgil.sesion14.FicherosApp" />
       <module name="curso-twitch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rgil.sesion11.*" />
+          <option name="PATTERN" value="org.rgil.sesion14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,21 +200,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.FicherosApp" />
       <item itemvalue="Application.MiHiloApp" />
       <item itemvalue="Application.AppExcepciones" />
       <item itemvalue="Application.EjercicioColecciones" />
       <item itemvalue="Application.App01" />
-      <item itemvalue="Application.DataApp" />
       <item itemvalue="JUnit.Funciones01EstaticasTest.testSuma" />
       <item itemvalue="Maven.ejemplosdelcurso-twitch [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FicherosApp" />
         <item itemvalue="Application.MiHiloApp" />
         <item itemvalue="Application.AppExcepciones" />
         <item itemvalue="Application.EjercicioColecciones" />
         <item itemvalue="Application.App01" />
-        <item itemvalue="Application.DataApp" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689880239909</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Colecciones">
+      <created>1689944467201</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689944467201</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +398,7 @@
     <MESSAGE value=" Lombock y TDD" />
     <MESSAGE value="Clases Genericas" />
     <MESSAGE value="Excepciones" />
+    <MESSAGE value="hilos" />
     <MESSAGE value="Colecciones" />
     <option name="LAST_COMMIT_MESSAGE" value="Colecciones" />
   </component>
